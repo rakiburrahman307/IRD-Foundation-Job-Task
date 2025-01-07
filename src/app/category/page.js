@@ -26,7 +26,7 @@ const Category = () => {
   };
 
   return (
-    <aside className="max-w-[429px]">
+    <aside className="max-w-[429px] bg-white ml-5 mt-10">
       <div className="h-[122px] space-y-4">
         <h2 className="px-[124px] py-[18px] h-[57px] text-center bg-[#1FA45B] text-white rounded-tr-[10px] rounded-tl-[10px]">
           Categories
