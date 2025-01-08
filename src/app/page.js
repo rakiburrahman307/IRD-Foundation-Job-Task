@@ -1,3 +1,4 @@
+import Settings from "@/components/RightSideSattings/Settings";
 import Category from "./category/page";
 import Nav from "./nav/page";
 import SideMenu from "./sideMenu/page";
@@ -12,7 +13,7 @@ export default function Home() {
         <SideMenu />
         {/* <Sidebar /> */}
         <Category />
-
+      <Settings/>
         {/* Content Area */}
         <div className='flex-1 bg-gray-100'>{/* <ContentArea /> */}</div>
 
